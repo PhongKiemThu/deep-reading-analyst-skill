@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(chmod:*)",
+      "Bash(./build.sh:*)",
+      "Bash(tree:*)",
+      "Bash(echo:*)",
+      "Bash(find:*)",
+      "Bash(awk:*)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
